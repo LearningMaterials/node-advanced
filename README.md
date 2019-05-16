@@ -6,22 +6,9 @@
 
 3. 最终会有一个操作，通过Promise线性的方式，输入一个数字，先执行乘，在执行加，最终打印出结果。    
 
-```  
-//第三步的输出代码：
-var promise = new Promise(function(resolve, reject) {
-    resolve(3);
-});
-
-promise.then(multiply).then(add).then(function(result) {
-      console.log('get result='+result);
-  }).catch(function(reason) {
-    console.log('error')
-  });
-```  
-
 **例如：**  
 输入 `2`最终输出 `8`  
 输入 `3`最终输出 `18`
 
 ---
-根据题目要求，写出前两个步骤，并在控制台打印出结果。
+根据题目要求，完成代码，并在控制台打印出结果。
